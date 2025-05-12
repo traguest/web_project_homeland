@@ -1,0 +1,19 @@
+.footer {
+}
+
+.footer__copyright {
+  text-align: center;
+
+  padding-top: 50px;
+
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    width: 194px;
+
+    height: 14px;
+    text-align: center;
+  }
+}
