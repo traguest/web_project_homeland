@@ -25,5 +25,7 @@
   .footer__copyright {
     height: 14px;
     text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
   }
 }

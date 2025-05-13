@@ -80,25 +80,25 @@
     width: 288px;
     height: 88px;
 
-    font-size: 40px;
+    font-size: 60px;
 
     margin-top: 55px;
     line-height: 1.5;
   }
 
   .header__span {
-    font-size: 40px;
+    font-size: 60px;
     line-height: 44px;
 
     margin-bottom: 100px;
   }
 
   .header__subtitle {
-    width: 288px;
-    height: 40px;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 40px;
+
     margin-top: 40px;
+    font-weight: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
   }
 
   .header__image {

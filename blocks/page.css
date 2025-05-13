@@ -10,9 +10,5 @@
 
   background: #2a2c2f;
   color: white;
-
   min-width: 100vh;
-  display: flex;
-
-  flex-direction: column;
 }
