@@ -8,11 +8,6 @@
 
   flex-direction: column;
 
-  min-height: 100vh;
   background: #2a2c2f;
   color: white;
-}
-
-main {
-  flex-grow: 1;
 }

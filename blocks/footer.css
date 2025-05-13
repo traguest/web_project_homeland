@@ -1,12 +1,22 @@
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__copyright {
-  text-align: center;
-
   padding-top: 50px;
 
   padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    width: 194px;
+    height: 16px;
+    font-size: 14px;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 320px) {
