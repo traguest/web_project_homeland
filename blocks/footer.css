@@ -10,7 +10,7 @@
   padding-bottom: 20px;
 }
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
   .footer__copyright {
     width: 194px;
     height: 16px;
@@ -19,10 +19,10 @@
   }
 }
 
+*/
+
 @media screen and (max-width: 320px) {
   .footer__copyright {
-    width: 194px;
-
     height: 14px;
     text-align: center;
   }
