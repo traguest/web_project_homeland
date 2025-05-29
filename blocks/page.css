@@ -1,0 +1,9 @@
+.page {
+  display: flex;
+
+  flex-direction: column;
+
+  background: #2a2c2f;
+  color: white;
+  max-width: 100%;
+}

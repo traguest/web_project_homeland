@@ -1,0 +1,12 @@
+@import url(/vendor/fonts.css);
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__copyright {
+  font-size: 14px;
+
+  font-family: "Inter2";
+}
