@@ -1,0 +1,156 @@
+.article * {
+  margin: 0%;
+  padding: 0%;
+}
+
+.article {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.article__location {
+  margin-top: 70px;
+
+  max-width: 984px;
+
+  display: grid;
+
+  grid-template-columns: auto auto;
+
+  grid-template-rows: auto auto auto auto;
+
+  grid-template-areas:
+    "enca parrafo"
+    "imagen parrafo2"
+    "imagen parrafo3"
+    "boton  parrafo4";
+
+  gap: 30px 50px;
+}
+
+.article__location > * {
+  border: 1px solid;
+}
+
+.article__title {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 460px;
+
+  font-family: "Inter";
+  font-size: 60px;
+  grid-area: enca;
+  margin-top: 0%;
+}
+
+.article__sub {
+  font-family: "Inter2";
+  line-height: 1.5;
+}
+
+.article__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+  grid-area: parrafo;
+  margin-top: 70px;
+  max-height: 60px;
+  font-family: "Inter";
+}
+
+.article__introduction {
+  grid-area: parrafo2;
+  line-height: 1.5;
+  font-family: "Inter2";
+  max-width: 484px;
+
+  font-size: 18px;
+}
+
+.article__text {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.article__imagen {
+  grid-area: imagen;
+  max-width: 460px;
+  width: 100%;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 1);
+}
+
+.article__description {
+  max-width: 484px;
+
+  line-height: 1.5;
+  grid-area: parrafo3;
+  font-family: "Inter2";
+
+  font-size: 18px;
+}
+
+.article__context {
+  grid-area: parrafo4;
+  max-width: 484px;
+
+  line-height: 1.5;
+
+  font-family: "Inter2";
+
+  font-size: 18px;
+}
+
+.article__button {
+  border: none;
+  grid-area: boton;
+  width: 289px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(to right, #0278fe, #003a7b);
+  box-shadow: 5px -5px 10px rgb(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 2%;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  .article__location {
+    max-width: 720px;
+    grid-gap: 25px 24px;
+  }
+
+  .article__title {
+    display: flex;
+    flex-direction: row;
+
+    font-size: 42px;
+  }
+
+  .article__text {
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: "Inter2";
+  }
+
+  .article__imagen {
+    max-height: 340px;
+    margin-top: 10px;
+  }
+
+  .article__introduction {
+    max-width: 352px;
+    font-size: 16px;
+  }
+
+  .article__description {
+    max-width: 352px;
+    font-size: 16px;
+  }
+}

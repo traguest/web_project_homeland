@@ -1,0 +1,41 @@
+.imagenes {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.imagenes__contenedor {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  grid-template-rows: repeat(2, 1fr);
+
+  gap: 17px;
+
+  margin-top: 100px;
+
+  align-items: center;
+}
+
+.descripcion__image {
+  max-width: 284px;
+
+  width: 100%;
+}
+
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  .imagenes__contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .descripcion__image {
+    max-width: 352px;
+
+    width: 100%;
+  }
+}
