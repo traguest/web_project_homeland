@@ -31,9 +31,9 @@
   gap: 30px 50px;
 }
 
-.article__location > * {
+/*.article__location > * {
   border: 1px solid;
-}
+}*/
 
 .article__title {
   display: flex;
@@ -109,8 +109,9 @@
 .article__button {
   border: none;
   grid-area: boton;
-  width: 289px;
-  height: 50px;
+  max-width: 289px;
+  width: 100%;
+  padding: 20px 10px;
   text-align: center;
   color: white;
   background-image: linear-gradient(to right, #0278fe, #003a7b);
