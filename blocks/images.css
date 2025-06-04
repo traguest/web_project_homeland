@@ -1,4 +1,4 @@
-.imagenes {
+.images {
   display: flex;
 
   justify-content: center;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.imagenes__contenedor {
+.images__container {
   display: grid;
 
   grid-template-columns: repeat(4, 1fr);
@@ -20,21 +20,36 @@
   align-items: center;
 }
 
-.descripcion__image {
+.images__description {
   max-width: 284px;
 
   width: 100%;
 }
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
-  .imagenes__contenedor {
+  .images__container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
 
-  .descripcion__image {
+  .images__description {
     max-width: 268px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  .images__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .images__description {
+    max-width: 288px;
     width: 100%;
   }
 }
