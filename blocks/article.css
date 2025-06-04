@@ -109,7 +109,8 @@
   padding: 20px 10px;
   text-align: center;
   color: white;
-  background-image: linear-gradient(to right, #0278fe, #003a7b);
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+
   box-shadow: 5px -5px 10px rgb(0, 0, 0, 0.2);
 
   cursor: pointer;
