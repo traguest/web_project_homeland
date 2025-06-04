@@ -73,13 +73,34 @@
   flex-direction: column;
 }
 
-.article__imagen {
+.article__container {
   grid-area: imagen;
   max-width: 460px;
+  position: relative;
+}
+
+.article__container:hover::after {
+  content: "";
+  width: 100%;
+  height: 96%;
+
+  position: absolute;
+  top: 0%;
+  right: 0%;
+
+  background-color: #00000080;
+  cursor: pointer;
+}
+
+.article__imagen {
   width: 100%;
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 1);
 }
+.article__imagen :hover {
+  background-color: #00000080;
 
+  cursor: pointer;
+}
 .article__description {
   max-width: 484px;
 
@@ -116,6 +137,15 @@
   cursor: pointer;
 
   margin-top: 10px;
+}
+
+.article__button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
+  cursor: pointer;
 }
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
