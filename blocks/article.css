@@ -135,7 +135,7 @@
     font-size: 32px;
   }
 
-  .article__title--name {
+  .article__title-name {
     display: flex;
     flex-direction: column;
   }
