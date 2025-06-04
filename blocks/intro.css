@@ -5,7 +5,7 @@
 }
 
 .intro__title {
-  font-size: 54px;
+  font-size: 45px;
   width: 80%;
   font-family: "Inter";
 }
@@ -32,11 +32,22 @@
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
   .intro__title {
-    max-width: 89%;
-
     font-size: 45px;
+
+    width: 84%;
+  }
+
+  .intro__text {
+    font-size: 24px;
+    width: 100%;
+  }
+
+  .intro__description {
+    font-size: 16px;
+    width: 94%;
   }
 }
+
 @media screen and (min-width: 320px) and (max-width: 544px) {
   .intro__title {
     font-size: 32px;

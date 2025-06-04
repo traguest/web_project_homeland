@@ -31,12 +31,10 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 720px;
   }
 
   .descripcion__image {
-    max-width: 352px;
-
+    max-width: 268px;
     width: 100%;
   }
 }
