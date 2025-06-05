@@ -87,7 +87,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
+
   background-color: #00000080;
   cursor: pointer;
 }
@@ -95,7 +95,7 @@
 .article__imagen {
   width: 100%;
   box-shadow: 7px 7px 20px rgba(0, 0, 0, 1);
-  z-index: 0;
+
   overflow: hidden;
 }
 
@@ -251,5 +251,11 @@
     margin: auto;
     max-width: 300px;
     border-radius: 4px;
+  }
+
+  .article__title-name {
+    display: flex;
+
+    flex-direction: column;
   }
 }
