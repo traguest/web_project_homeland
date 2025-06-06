@@ -1,4 +1,3 @@
 # Tripleten web_project_homeland
 
-Es una pagina que se adaptara a pantallas desde celularas hasta tv
-esto es de forma educativa
+La página web de la Biblioteca Triple Peaks es el sexto proyecto en el programa de Desarrollo web en Triple Ten. Fue creado utilizando HTML y CSS, con base en un brief de diseño figma.
